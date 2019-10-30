@@ -8,7 +8,7 @@ var modes = document.querySelectorAll(".mode");
 var numSquares = 6;
 var colors = generateColors(numSquares);
 var colorAnswer = randomColor();
-
+//Nice Reset
 resetNow();
 
 for(var i = 0; i < modes.length; i++) {
